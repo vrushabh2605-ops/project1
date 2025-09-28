@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  AI Secure  Hub:
+    container_name: AI Secure  Hub
+    image:
+    ports:
+      - 3000:3000
+    restart: unless-stopped
